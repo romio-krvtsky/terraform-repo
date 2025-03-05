@@ -4,7 +4,7 @@ include "root" {
 }
 
 dependency "s3_media" {
-  config_path = "../../../dev/eu-north-1/s3_media"
+  config_path = "../../../prod/eu-north-1/s3_media"
 }
 
 terraform {
